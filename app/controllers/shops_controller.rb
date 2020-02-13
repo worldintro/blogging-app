@@ -12,6 +12,7 @@ class ShopsController < ApplicationController
   def index
     @shops = Shop.all
   end
+  "changes after other mr"
 
   # GET /shops/1
   # GET /shops/1.json
