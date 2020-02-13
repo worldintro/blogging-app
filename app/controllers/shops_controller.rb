@@ -37,6 +37,7 @@ class ShopsController < ApplicationController
     @shop = Shop.new(shop_params)
     "lalala"
     "lalalla2"
+    "search"
     respond_to do |format|
       if @shop.save
         format.html { redirect_to @shop, notice: 'Shop was successfully created.' }
