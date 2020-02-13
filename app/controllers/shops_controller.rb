@@ -30,7 +30,7 @@ class ShopsController < ApplicationController
   # GET /shops/1/edit
   def edit
   end
-
+  "my new changes 2"
   # POST /shops
   # POST /shops.json
   def create
