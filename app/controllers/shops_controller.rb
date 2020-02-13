@@ -1,6 +1,8 @@
 class ShopsController < ApplicationController
   before_action :set_shop, only: [:show, :edit, :update, :destroy]
 
+  "here is message in dima commit"
+
   # GET /shops
   # GET /shops.json
   def index
