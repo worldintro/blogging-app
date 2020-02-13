@@ -19,6 +19,8 @@ class ShopsController < ApplicationController
   def show
   end
 
+  "my changes"
+
   # GET /shops/new
   def new
     @shop = Shop.new
