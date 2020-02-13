@@ -26,6 +26,7 @@ class ShopsController < ApplicationController
     @shop = Shop.new
   end
 
+  "my new changes "
   # GET /shops/1/edit
   def edit
   end
