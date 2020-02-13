@@ -8,8 +8,22 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
+
+# TESTING GEMS
+gem 'dry-validation'
+gem 'dry-types'
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
+
+gem 'htmltoword'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.11'
+# Postgres
+gem 'pg'
+# ActiveModel
+gem 'activemodel-associations'
+# Enviroment
+gem 'dotenv-rails', :groups => [:development, :test]
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

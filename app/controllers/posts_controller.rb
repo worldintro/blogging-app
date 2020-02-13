@@ -10,9 +10,18 @@ class PostsController < ApplicationController
 	end
 
 	def show
+		require 'htmltoword'
 		# params[:id] - параметр по умолчанию
 		logger.debug "Params in show: #{params}"
 		@post = Post.find(params[:id])
+		pdf_html = ActionController::Base.new.render_to_string(
+				template: 'posts/show',
+				layout: false,
+				locals: {
+						:@post => @post
+				})
+		file = Htmltoword::Document.create pdf_html, 'word'
+		send_data(file, type:'application/doc', filename: 'word.docx')
 	end
 
 	def edit
