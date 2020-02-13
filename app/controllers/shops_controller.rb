@@ -4,6 +4,9 @@ class ShopsController < ApplicationController
   "here is message in dima commit"
   "here is message for update in dima commit"
 
+
+  "here is new changes in dima commit"
+
   # GET /shops
   # GET /shops.json
   def index
