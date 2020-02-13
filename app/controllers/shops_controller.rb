@@ -2,6 +2,7 @@ class ShopsController < ApplicationController
   before_action :set_shop, only: [:show, :edit, :update, :destroy]
 
   "here is message in dima commit"
+  "here is message for update in dima commit"
 
   # GET /shops
   # GET /shops.json
