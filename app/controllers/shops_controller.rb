@@ -37,7 +37,7 @@ class ShopsController < ApplicationController
     @shop = Shop.new(shop_params)
     "lalala"
     "lalalla2"
-    "search"
+    "searchdocker start"
     respond_to do |format|
       if @shop.save
         format.html { redirect_to @shop, notice: 'Shop was successfully created.' }
@@ -72,6 +72,10 @@ class ShopsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+
+  "asndklasndlknasd"
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
