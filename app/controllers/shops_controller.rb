@@ -75,7 +75,7 @@ class ShopsController < ApplicationController
 
 
   "asndklasndlknasd"
-
+  "some new changes needs to remove"
 
   private
     # Use callbacks to share common setup or constraints between actions.
