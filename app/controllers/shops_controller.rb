@@ -16,7 +16,9 @@ class ShopsController < ApplicationController
 
   # GET /shops/1
   # GET /shops/1.json
+  'changes by uriy'
   def show
+    #chnges by uriy
     # billing is here
   end
 

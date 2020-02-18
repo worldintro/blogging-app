@@ -14,6 +14,8 @@ gem 'dry-validation'
 gem 'dry-types'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+gem 'pg_search'
+gem 'ransack'
 
 gem 'htmltoword'
 # Use sqlite3 as the database for Active Record
